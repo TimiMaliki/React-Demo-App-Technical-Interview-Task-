@@ -8,7 +8,7 @@ const Login = () => {
   });
 
   const handleOnChange = (e) => {
-    setFormData(...formData, [e.target.name, e.target.value]);
+    setFormData([e.target.name, e.target.value]);
   };
 
   const handleOnSubmit = (e) => {
@@ -47,7 +47,7 @@ const Login = () => {
               name="password"
               value={formData.password}
               onChange={handleOnChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-400 outline-none"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-400 outline-none mb-4"
               placeholder="••••••••"
               required
             />

@@ -27,7 +27,7 @@ const Main = () => {
    }
   }
   return (
-    <section className="min-h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-pink-100 py-10 px-4 lg:px-24">
+    <section className="min-h-screen w-full bg-white py-10 px-4 lg:px-24">
         <Search
         id = {id}
         setID ={setID}
@@ -42,11 +42,11 @@ const Main = () => {
                 <div className="w-full h-full mt-4 text-center">
                   <div className="content text-center">
                     <h4 className="text-sm font-semibold mb-4">
-                      <span className="text-xl font-semibold">User Id : </span>
+                      <span className="text-2xl font-semibold">User Id : </span>
                       {user.id}
                     </h4>
                     <h3 className="text-sm font-semibold mb-6">
-                      <span className="text-xl font-semibold">Title : </span>
+                      <span className="text-2xl font-semibold">Title : </span>
                       {user.title}
                     </h3>
                   </div>

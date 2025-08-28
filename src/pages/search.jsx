@@ -5,7 +5,7 @@ const Search = ({viewData , id , setID , handleSubmitBtn}) => {
             <form onSubmit={handleSubmitBtn}>
             <input
               type="number"
-              className="w-full h-10  text-xl bg-white p-8 border border-blue-700 outline-none rounded-lg shadow-lg mb-8"
+              className="w-full h-10  text-xl bg-white p-8 border border-black outline-none rounded-lg shadow-lg mb-8"
               placeholder="Enter a user ID"
               required
               value={id}
