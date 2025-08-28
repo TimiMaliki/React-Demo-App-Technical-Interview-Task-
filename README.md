@@ -1,4 +1,4 @@
 
-*********** INTERNSHIP PROGROM WITH YOUBLOOM *************
+*********** INTERNSHIP PROGRAM WITH YOUBLOOM *************
 *********** React Demo App – Technical Interview Task ***********
 *********** COMPLETED *********
