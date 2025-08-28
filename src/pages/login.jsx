@@ -24,7 +24,7 @@ const Login = () => {
 
         <form onSubmit={handleOnSubmit} className="space-y-6">
           <div>
-            <label className="block text-gray-700 font-medium mb-1">
+            <label className="block text-black font-medium mb-1">
               Email
             </label>
             <input
@@ -39,7 +39,7 @@ const Login = () => {
           </div>
 
           <div>
-            <label className="block text-gray-700 font-medium mb-1">
+            <label className="block text-black font-medium mb-1">
               Password
             </label>
             <input
@@ -52,7 +52,7 @@ const Login = () => {
               required
             />
           </div>
-          <Link to={"/"}>
+          <Link to={"/main"}>
             <button
               type="submit"
               className="w-full py-3 bg-gradient-to-r from-red-600 to-orange-500 text-white font-bold rounded-lg hover:opacity-90 transition"

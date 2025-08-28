@@ -10,8 +10,8 @@ import Login from './pages/login';
 const router = createBrowserRouter([{
   element : <AuthLayout/>,
   children : [
-    {path : "/" , element : <Main/>},
-    {path : "/login" , element : <Login/>},
+    {path : "/main" , element : <Main/>},
+    {path : "/" , element : <Login/>},
     {path : "/detail" , element : <Details/>},
     {path : "/detail/:id" , element : <Details/>}
   ]
